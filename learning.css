@@ -1,0 +1,93 @@
+a:link, a:visited	{
+	color:black;
+}
+
+a.current:link	{
+  background-color: #00cccc;
+}
+
+a:hover	{
+	color: black;
+	font-weight: bold;
+}
+
+.grid-container {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  display: grid;
+    grid-template-areas:
+    'header header header header header header'
+	'menu menu menu menu menu menu'
+    'main right right right right right'
+    'footer footer footer footer footer footer';
+}
+
+
+p {
+	font-size: 16px;
+	text-align: justify;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+h2	{
+	font-style: italic;
+	color: black;
+	text-align: center;
+}
+
+.articlevideo	{
+	display: inline-block;
+}
+
+.grid1{
+	  background-image: url("programming.jpg");
+	  grid-area: header;
+	  padding: 150px;
+	  background-size: cover;
+
+}
+.grid2	{
+	  background-color: #e6f2ff;
+	  word-spacing: 10px;
+	  grid-area: menu;
+	  padding: 20px;
+	  font-size: 16px;
+	  text-align: left;
+ 
+}
+
+.grid3	{
+  background-color: #e6f2ff;
+  grid-area: main;
+  padding: 20px;
+}
+
+.divwithscroll	{
+	width: 100%;
+    height: 600px;
+    overflow: scroll;
+}
+
+.stickpostion	{
+	position: sticky;
+	top: 10px;
+	left: 150px;
+}
+
+.grid4	{
+  background-color: #e6f2ff;
+  grid-area: right;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid5	{
+  background-color: #e6f2ff;
+  grid-area: footer;
+  padding: 20px;
+  font-size: 30px;
+  padding-left: 1100px;
+
+}
+

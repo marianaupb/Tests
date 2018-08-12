@@ -1,0 +1,58 @@
+a:link, a:visited	{
+	color:black;
+}
+
+a.current:link	{
+  background-color: #00cccc;
+}
+
+a:hover	{
+	color: black;
+	font-weight: bold;
+}
+
+header	{
+	background-image: url("programming.jpg");
+	padding: 150px;
+    background-size: cover;
+}
+
+
+nav	{
+	background-color: #e6f2ff;
+	word-spacing: 10px;
+	padding: 20px;
+	font-size: 16px;
+	text-align: left;
+}
+
+p	{
+	font-size: 18px;
+	text-align: center;
+	margin: 30px; 
+	border-bottom: double #99e6ff;
+	padding-bottom: 10px;
+}
+h2	{
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+
+p.down	{
+	border-bottom: none;
+	text-align: right; 
+}
+
+.image {
+	padding-left: 120px;
+}
+
+
+footer	{
+	background-color: #e6f2ff;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+}
